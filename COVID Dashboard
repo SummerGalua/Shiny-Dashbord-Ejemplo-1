@@ -154,11 +154,7 @@ library(shinydashboard)
 shinyUI(dashboardPage(skin = "red", 
                       dashboardHeader(title = "Simulador Epidémico"),
                       dashboardSidebar(h1("CONTÁCTANOS"),
-                                       p(" brandoncortes05@ciencias.unam.mx"),
-                                       p(" vacb@azc.uam.mx"),
-                                       p(" solruiz@ciencias.unam.mx"),
-                                       p(" roberto.chan@ciencias.unam.mx"),
-                                       h1(" DESCARGA TU SIMULACIÓN"),
+                                       p("brandoncortes05@ciencias.unam.mx"),
                                        downloadButton("Mi_Modelo_SIR.xlsx","Descarga tu Modelo SIR")
                                        ),
                       dashboardBody(    
